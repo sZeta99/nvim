@@ -4,7 +4,7 @@ return {
     config = function()
       require('toggleterm').setup {
         -- Your setup configurations here
-        open_mapping = '<F4>',
+        open_mapping = '<C-\\>',
         direction = 'float',
         shade_filetypes = {},
         hide_numbers = true,
@@ -15,7 +15,7 @@ return {
       }
     end,
     keys = {
-      { '<F4>', '<cmd>ToggleTerm<CR>', desc = 'Toggle floating terminal' },
+      { '<C-\\>', '<cmd>ToggleTerm<CR>', desc = 'Toggle floating terminal' },
     },
   },
 }
